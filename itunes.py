@@ -19,3 +19,4 @@ print(json.dumps(data, indent=4, ensure_ascii=False).encode().decode())
 print('検索結果：' + str(data['resultCount']) + ' 件')
 
 print(date['results'][0]['colectionName'])
+print(date['results'][0]['trackName'])
